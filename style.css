@@ -1,0 +1,149 @@
+/* code written by varsha sahu */
+/* body part */
+body {
+	padding: 10px;
+	margin: 0;
+	font-family: verdana;
+}
+/* set background and property */
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-image: url(background-image.jpg);
+}
+
+/* project name heading  decoration*/
+h1 {
+	color:white;
+	text-align: center;
+	font-size: 38px;
+
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-shadow: 2px 2px 8px #bf4040;
+}
+
+/* How it looks like when we hover in project - name */
+h1:hover{
+	color: rgba(216, 248, 10, 0.758);
+	font-size: 45px;
+}
+/* button height width */
+#red{
+	width: 120px;
+	height: 80px;
+}
+#yellow{
+	
+	width:68px;
+	height:70px;
+}
+#blue{
+	
+	width:75px;
+	height:80px;
+}
+
+/*digit */
+.digit {
+	
+	font-size: 140px;
+	color: #fc2504;
+	text-shadow:  2px 1px rgb(252, 248, 248);
+}
+
+
+/* text hr minut second  */
+.txt {
+	font-size: 25px;
+	color: aliceblue;
+}
+
+/* button  stop reset play*/
+.btn{
+	padding-top: 60px;
+	padding: right 0;
+	background: none;
+	border: 0;
+}
+
+
+/* Media Queiries */
+
+@media screen and (max-width : 1000px) {
+    
+    .digit {
+        font-size: 100px;
+       
+    }
+	.txt {
+		font-size: 15px;
+	}
+    
+}
+@media screen and (max-width : 700px) {
+    
+
+    .digit {
+        font-size: 70px;
+       
+    }
+	.txt {
+		font-size: 12px;
+	} 
+
+    
+}
+@media screen and (max-width : 550px) {
+    
+
+    .digit {
+        font-size:45px;
+       
+    }
+	.txt {
+		font-size: 8px;
+	} 
+}
+@media screen and (max-width : 340px) {
+	.container{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+    h1{
+		font-size: 20px;
+	}
+.digit{
+	display: flex;
+	flex-direction: column-reverse;
+}
+.btn{
+	display: flex;
+	flex-direction: column-reverse;
+	margin: 0;
+	padding: 0;
+}
+#yellow{
+	
+	width:55px;
+	height:60px;
+	padding-left: 22px;
+	padding-bottom: 4px;
+}
+#blue{
+	
+	width:60px;
+	height:65px;
+	padding-left: 16px;
+}  
+#red{
+	width: 100px;
+	height: 60px;
+	
+}
+	
+}
+
